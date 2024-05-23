@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
     <title>Personal Blog</title>
 </head>
 <body>
+    <header>
+        <h1>My Blog Post</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="blogForm">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+
+                <label for="title">Blog Title:</label>
+                <input type="text" name="title" id="title" required>
+
+                <label for="content">Blog Content:</label>
+                <textarea name="content" id="content" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Portfolio: <a href="https://github.com/"></a></p>
+            <p>Blog Post:</p>
+            <p>Email: <a href="placeholder"></a>thaocharles23@gmail.com</p>
+        </div>
+    </footer>
     <script src="/assets/js/logic.js"></script>
     <script src="/assets/js/form.js"></script>
 </body>
