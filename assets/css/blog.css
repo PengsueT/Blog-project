@@ -1,0 +1,10 @@
+#toggleMode, #backButton {
+    padding: 10px;
+    background-color: aqua;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#toggleMode:hover, #backButton:hover {
+    background-color: #008080;
+}
