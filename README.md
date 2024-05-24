@@ -42,4 +42,4 @@ This project is a simple blog web application that allows users to create, view,
 
 [GithubRepo](https://github.com/PengsueT/Blog-project)
 
-[GithubLiveLink]()
+[GithubLiveLink](https://pengsuet.github.io/Blog-project/)
