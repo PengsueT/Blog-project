@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             postsContainer.appendChild(postElement);
         });
     }
-
+    
     const toggleModeButton = document.getElementById('toggleMode');
     if (toggleModeButton) {
         toggleModeButton.addEventListener('click', () => {
