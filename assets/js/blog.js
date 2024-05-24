@@ -26,4 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'index.html';
         });
     }
+
+    const clearButton = document.getElementById('clearButton');
+    if (clearButton) {
+        clearButton.addEventListener('click', () => {
+            clearPosts();
+            postsContainer.innerHTML = '';
+        })
+    }
 });

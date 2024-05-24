@@ -8,6 +8,10 @@ function loadPostsForm() {
     return JSON.parse(localStorage.getItem('posts')) || [];
 }
 
+function clearPosts() {
+    localStorage.removeItem('posts');
+}
+
 function toggleMode() {
     document.body.classList.toggle('dark-mode');
     document.body.classList.toggle('light-mode');

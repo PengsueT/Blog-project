@@ -19,4 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    const toggleModeButton = document.getElementById('toggleMode');
+    if (toggleModeButton) {
+        toggleModeButton.addEventListener('click', () => {
+            toggleMode();
+        });
+    }
 });
