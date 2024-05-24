@@ -8,3 +8,13 @@
 #toggleMode:hover, #backButton:hover {
     background-color: #008080;
 }
+
+#postsContainer, div {
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div h2 {
+    
+}

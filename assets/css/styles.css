@@ -13,3 +13,17 @@ header, footer {
 main {
     padding: 1em;
 }
+
+.hidden {
+    display: none;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
